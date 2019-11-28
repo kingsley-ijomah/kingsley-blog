@@ -1,0 +1,56 @@
+.box {
+	border: 1px red dotted;
+}
+
+
+.vcard-container {
+	max-width: 950px;
+	border: 1px solid #e1e1e1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+.vcard-container .container {
+	padding: 30px 40px;
+}
+
+.vcard-fname {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.vcard-lname {
+	font-family: 'Heebo', sans-serif;
+}
+
+.vcard-container h1 {
+	margin-bottom: 5px;
+}
+
+.vcard-title {
+	font-size: 17px;
+	font-family: 'Montserrat', sans-serif;
+	color: grey;
+}
+
+.profile-list {
+	font-size: 14px;
+}
+
+.profile-list .title {
+	width: 120px;
+	float: left;
+}
+
+.profile-list span {
+	color: #9da0a7;
+	font-size: 16px;
+}
+
+.profile-list .row {
+	margin-bottom: 10px;
+}
+
+.hr-divide {
+	margin: 30px 0px;
+}
