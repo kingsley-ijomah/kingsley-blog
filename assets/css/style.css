@@ -2,6 +2,10 @@ body {
 	margin: 40px 0px;
 }
 
+ul {
+	list-style: none;
+}
+
 .box {
 	border: 1px red dotted;
 }
@@ -17,7 +21,7 @@ body {
 }
 
 .blog-container {
-	padding: 0px 50px 50px 50px;
+	padding: 50px;
 	box-shadow: 2px 2px 10px 1px #e1e1e1;
 }
 
@@ -70,83 +74,52 @@ body {
  	text-align: center;
  }
 
- .side-panel .panels{
- 	margin-bottom: 30px;
- 	border-bottom: 1px solid #e1e1e1;
- 	padding-bottom: 30px;
- }
-
- .side-panel .panels p{
- 	padding: 0px;
- 	margin-bottom: 10px;
- }
-
- .panel-comment-count {
- 	font-size: 14px;
- 	color: #ccc;
- }
-
- .side-panel h3 {
- 	color: #07cb79;
- 	font-size: 25px;
- 	font-weight: 300;
- 	margin-bottom: 30px;
- }
-
- .side-panel article {
- 	margin-bottom: 20px;
- }
-
- .side-panel .tags {
- 	font-size: 13px;
- 	border: 1px #e1e1e1 solid;
- 	margin-right: 4px;
- 	margin-bottom: 4px;
- 	padding: 10px;
- 	text-transform: uppercase;
- 	float: left;
- 	color: #3d4451;
- }
-
-  .side-panel .tags:hover {
-  	background-color: #07cb79;
-  	color: #fff;
-  }
-
-.side-panel .hash-tags {
-	font-size: 13px;
-	color: #3d4451;
-	font-weight: bold;
+ .side-panel::after {
+  content: '';
+  display: block;
+  width: 64px;
+  height: 1px;
+  background-color: #bfbfbf;
+  margin: 20px auto;
 }
 
-.side-panel .hash-tags span {
-	margin-right: 5px;
+.post-listing {
+	font-size: 22px;
+	color: #999;
+	font-weight: 300;
 }
 
-.categories-content .row {
-	margin-bottom: 10px;
-	border-bottom: 1px solid #e1e1e1;
-	padding: 5px 0px;
-}
-
-.side-panel .categories-content a {
-	text-align: left;
-	color: inherit;
-}
-
-.side-panel a {
-	color: inherit;
-}
-
-.side-panel a:hover {
-	text-decoration: none;
+.post-listing:hover {
 	color: #07cb79;
 }
 
-.side-panel .categories-content a:last-child {
-	border: none;
+.post-listing span {
+	float: right;
+	color: #999;
 }
 
-.side-panel .panels:last-child {
-	border: none;
+.posts-con .row {
+	 margin-bottom: 20px;
+}
+
+.categories-con .row {
+	 margin-bottom: 20px;
+}
+
+.categories-listing {
+	font-size: 22px;
+	color: #999;
+	font-weight: 300;
+}
+
+.categories-listing:hover {
+	color: #07cb79;
+}
+
+.categories-listing span {
+	color: #999;
+}
+
+.categories-con .row {
+	 margin-bottom: 20px;
 }

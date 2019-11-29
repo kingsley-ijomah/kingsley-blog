@@ -1,0 +1,33 @@
+.main-nav li {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.main-nav li:last-child {
+	margin-right: 0px;
+}
+
+.main-nav a {
+	text-transform: uppercase;
+	color: inherit;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.active {
+	color: #07cb79 !important;
+}
+
+.main-nav a:hover {
+	text-decoration: none;
+	color: #07cb79;
+}
+
+.main-nav-row:after {
+	content: '';
+  display: block;
+  width: 64px;
+  height: 1px;
+  background-color: #bfbfbf;
+  margin: 35px auto 55px auto;
+}

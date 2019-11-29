@@ -1,7 +1,7 @@
 .date-card {
-	position: relative;
-	left: -50px;
-	top: 70px;
+	position: absolute;
+	right: 0px;
+	top: 60px;
 	background-color: #07cb79;
 	color: #fff;
 	padding: 10px 15px;
