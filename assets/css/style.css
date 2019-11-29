@@ -1,3 +1,152 @@
+body {
+	margin: 40px 0px;
+}
+
 .box {
 	border: 1px red dotted;
+}
+
+.blog-row {
+	margin-bottom: 20px;
+}
+
+.main-container {
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.blog-container {
+	padding: 0px 50px 50px 50px;
+	box-shadow: 2px 2px 10px 1px #e1e1e1;
+}
+
+.blog-content {
+	margin-top: 30px;
+	font-family: "Open Sans", sans-serif;
+	color: #3d4451;
+	font-size: 18px;
+	font-weight: lighter;
+	letter-spacing: 0.5px;
+}
+
+ .blog-content img {
+ 	width: 100%;
+ 	margin-bottom: 20px;
+ }
+
+ .blog-profile img {
+ 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+ }
+
+.blog-profile h2 {
+ 	font-size: 30px;
+ 	text-align: center;
+ 	color: #3d4451;
+ 	margin-top: 20px;
+ }
+
+ .profile-sub {
+ 	font-size: 18px;
+ 	text-align: center;
+ 	color: #3d4451;
+ }
+
+ .profile-socials {
+ 	text-align: center;
+ 	font-size: 20px;
+ }
+
+ .profile-socials a {
+ 	color: #07cb79;
+ 	margin-right: 10px;
+ }
+
+ .profile-socials a:last-child {
+ 	margin-right: 0px;
+ }
+
+ .side-panel {
+ 	text-align: center;
+ }
+
+ .side-panel .panels{
+ 	margin-bottom: 30px;
+ 	border-bottom: 1px solid #e1e1e1;
+ 	padding-bottom: 30px;
+ }
+
+ .side-panel .panels p{
+ 	padding: 0px;
+ 	margin-bottom: 10px;
+ }
+
+ .panel-comment-count {
+ 	font-size: 14px;
+ 	color: #ccc;
+ }
+
+ .side-panel h3 {
+ 	color: #07cb79;
+ 	font-size: 25px;
+ 	font-weight: 300;
+ 	margin-bottom: 30px;
+ }
+
+ .side-panel article {
+ 	margin-bottom: 20px;
+ }
+
+ .side-panel .tags {
+ 	font-size: 13px;
+ 	border: 1px #e1e1e1 solid;
+ 	margin-right: 4px;
+ 	margin-bottom: 4px;
+ 	padding: 10px;
+ 	text-transform: uppercase;
+ 	float: left;
+ 	color: #3d4451;
+ }
+
+  .side-panel .tags:hover {
+  	background-color: #07cb79;
+  	color: #fff;
+  }
+
+.side-panel .hash-tags {
+	font-size: 13px;
+	color: #3d4451;
+	font-weight: bold;
+}
+
+.side-panel .hash-tags span {
+	margin-right: 5px;
+}
+
+.categories-content .row {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #e1e1e1;
+	padding: 5px 0px;
+}
+
+.side-panel .categories-content a {
+	text-align: left;
+	color: inherit;
+}
+
+.side-panel a {
+	color: inherit;
+}
+
+.side-panel a:hover {
+	text-decoration: none;
+	color: #07cb79;
+}
+
+.side-panel .categories-content a:last-child {
+	border: none;
+}
+
+.side-panel .panels:last-child {
+	border: none;
 }

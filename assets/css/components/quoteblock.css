@@ -1,0 +1,28 @@
+blockquote {
+	color: #737881;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+blockquote::after {
+  content: '';
+  display:inline-block;
+  width: 64px;
+  height: 1px;
+  background-color: #bfbfbf;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+blockquote:before {
+    content: "\f10e";
+    font-family: FontAwesome;
+    left:-5px;
+    top:0;
+    color: #07cb79;
+		margin-bottom: 20px;
+ }
